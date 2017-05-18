@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Terrain Gen</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="js/index.js"/></script>
+    </head>
+    <body onload="run()">
+        <canvas id="canvas"></canvas>
+        <div id="controls">
+        <h1>Terrain Gen</h1>
+        <p>Terrain Variability</p>
+        <input id="variability" type="number">
+        <p>Tile Size</p>
+        <input id="tileSize" type="number">
+        <input id="generateButton" onclick="generateTerrain()" type="button" value="Generate!" />
+        </div>
+    </body>
+</html>
